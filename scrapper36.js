@@ -802,29 +802,29 @@ const { chromium } = require("playwright");
 
 (async () => {
 
-  runtimeWatchdog(state);
+  
 
   try {
     const PREFIXES = [
-    "UYL",
-    "H2Q",
-    "K3F",
-    "GCV",
-    "XWZ",
-    "YKL",
-    "K4G",
+    "JBK",
+    "QHF",
+    "X27",
+    "TMB",
+    "QJ2",
+    "NMD",
+    "YAE",
+    "ZNY",
     "HQR",
-    "MTN",
-    "S3X",
-    "XXK",
-    "WH8",
-    "QS0",
-    "GE2",
-    "HRC"
+    "WR6",
+    "X2U",
+    "P80",
+    "V6K",
+    "SDQ",
+    "NNE"
 ];
 
     const state = {};
-
+    runtimeWatchdog(state);
     state.browser = await chromium.launch({
       headless: true,
       args: ["--disable-blink-features=AutomationControlled", "--no-sandbox"]
